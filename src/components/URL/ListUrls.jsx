@@ -117,7 +117,7 @@ const UrlList = (props) => {
 
 
     return (
-        <div className="App" >
+        <div className="App" style={{marginTop:"100px"}} >
 
             {
                 loadingList?( <Loader />) : (errorList ? (<Message message={errorList} type="error" />) :(
