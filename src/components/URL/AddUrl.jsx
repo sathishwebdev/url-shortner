@@ -109,13 +109,13 @@ let shortUrl = !data ? null : data.shortUrl
             window.open(`/${shortUrl}`, '_blank')
           
             }} className="link">
-            {`http://localhost:3000/${shortUrl}`}
+            {`https://shorty-sk.netlify.app/${shortUrl}`}
         </Button>
         <mui.Tooltip title="Copy Short link" >
             <mui.IconButton
             onClick={
                 () => {
-                    navigator.clipboard.writeText(`http://localhost:3000/${shortUrl}`)
+                    navigator.clipboard.writeText(`https://shorty-sk.netlify.app/${shortUrl}`)
                     dispatch(setSnackbar(true, "success", "Copied"))
                 }
             }
