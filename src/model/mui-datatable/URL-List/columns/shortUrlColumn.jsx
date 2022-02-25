@@ -21,7 +21,7 @@ const ShortUrlColumn = ({shortUrl}) => {
             <IconButton
             onClick={
                 () => {
-                    navigator.clipboard.writeText(`http://localhost:3000/${shortUrl}`)
+                    navigator.clipboard.writeText(`https://shorty-sk.netlify.app/${shortUrl}`)
                     dispatch(setSnackbar(true, "success", "Copied"))
                 }
             }
