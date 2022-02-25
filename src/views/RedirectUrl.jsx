@@ -42,11 +42,11 @@ console.log(errorRedirect)
     }
 
     return <div>
-        {loadingRedirect ? <Loader /> :
+        {/* {loadingRedirect ? <Loader /> :
         <>
         <p>Redirecting to {url? `${`${url.url}`.substring(0, 20)}...` : ''}</p>
         </>
-}</div>
+}*/}</div> 
 
 }
 
