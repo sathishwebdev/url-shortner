@@ -38,7 +38,7 @@ function App(props) {
 
 
         
-        <Route path="*" element={<div className="header" style={{minHeight:"100vh", borderRadius:"0 0 0 70vw"}}><h1>404</h1></div>}/>
+        <Route path="*" element={<div className="header" style={{minHeight:"100vh", borderRadius:"0 0 0 70vw"}}><h1>404</h1></div>} />
       </Routes>
     </BrowserRouter></>
   );
